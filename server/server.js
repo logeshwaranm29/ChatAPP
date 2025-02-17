@@ -8,8 +8,8 @@ const app = express();
 app.use(express.json()); /// use means it is middleware express conver to json
 app.use(cors());
 const server = http.createServer(app);
-const io = new Server(server, {
-  cors: {
+const io = new Server(server, {                     
+  cors: {    // cross origin resource sharing  can access different domain 
     origin: '*', 
     methods: ['GET', 'POST'],
   },
@@ -52,8 +52,8 @@ app.post('/messages',async(req,res)=>{
       const {username,room,message} = req.body;
 
       try{
-
-           const newMessage = new Message({username,room,message,isGroup});
+      
+           const newMessage = new Message({username,room,message});
 
            await newMessage.save();
 
@@ -80,8 +80,6 @@ io.on('connection', (socket) => {
 
   socket.on('chat message', (data) => {
     console.log(`Message received in room ${data.room}:`, data);
-
-
     io.to(data.room).emit('chat message', data);  //  send msg to all connected clients 
   });
 

@@ -1,0 +1,409 @@
+*{
+  font-family: sans-serif;
+
+}
+
+body {
+  background-color: #EDEDED;
+  overflow-x: hidden;
+  max-width: 100%; 
+  overflow-y:hidden;
+}
+.logo{
+   
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+
+
+}
+.icons:hover {
+  color: #25D366;
+}
+
+.send-btn:hover {
+  background-color: #25D366;
+}
+
+
+.firstcomponent{
+   
+   margin-left: 100px;
+   margin-top: 55px;
+   max-height: 450px;
+
+}
+
+.container-2{
+   
+    background-color: white;
+    border-radius: 40px;
+    height: 48%;
+    width: 60px;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    padding: 4px;
+    margin-top: 145px;
+
+}
+.icons{
+
+  margin-left: 7px;
+  font-size: 47px;
+
+}
+
+.container-3{
+   
+    margin-top: 199px;
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+
+   
+}
+
+.MainDiv{
+  display:flex;
+
+}
+
+.user-profile{
+
+ 
+ border-radius: 30px;
+ font-size: 35px;
+ color: gray;
+ background-color: gainsboro;
+ padding: 5px;
+
+}
+
+ .second-container{
+ 
+  background-color:white;
+  padding: 7px;
+  border-radius: 50px;
+  color: white;
+  height: 30px;
+  margin-top: 4px;
+
+  
+  
+}
+
+ .userName-container{
+  margin-left: 10px;
+  position: relative;
+  bottom: 13px;
+}
+.userName-container p{
+  color: green;
+  font-size: 14px;
+  position: relative;
+  bottom: 15px;
+  max-width: 80px;
+  display: block;
+}
+
+.second-container-2{
+  
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    align-items: center;
+    width: 104%;
+    height: 40px;
+    padding: 6px;
+   align-items: center;
+
+
+} 
+
+ .UserSeen span{
+  
+     position: relative;
+     top: 20px;
+     font-size: 13px;
+   
+}
+
+.profile-img{
+ width: 50px;
+ height: 50px;
+ border-radius: 30px;
+
+}
+
+.third-main-container{
+
+   margin-left: 38px;
+   margin-top: 50px;
+   
+}
+
+.third-container-1{
+ display: flex;
+ justify-content: space-between;
+ width:139vh;
+ background-color: white;
+ height: 64px;
+ padding: 5px;
+ border-radius: 30px;
+ position: relative;
+ top: 15px;
+}
+
+.usercall-icons{
+
+    display: flex;
+    font-size: 21px;
+    gap: 14px;
+    align-items: center;
+    margin-left: 690px;
+}
+
+.third-container-2{
+    
+  background-image: url(./bg11.png);
+  background-repeat:repeat ;
+  background-position: center;
+  background-size: contain;
+  height: 103vh;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  line-height: 100px;
+  border-bottom-right-radius:20px;
+  overflow-y:auto;
+  overflow-inline: hidden;
+  width: 140vh;
+  scrollbar-width: none;
+  max-height: 600px;
+}
+.third-container-3{
+
+  background-color: white;
+   padding: 10px;
+   position: relative;
+   bottom: 55px;
+   margin-right: 10px;
+   width: 137vh;
+   max-height: 48px;
+}
+.third-container-3 input{
+  padding: 7px;
+  height: 23px;
+  border-radius: 40px;
+
+     
+}
+
+.all {
+
+ border-radius:40px;
+ padding:3px;
+ background-color:#32CD32;
+ width:52px;
+ height: 40px;
+ text-align:center;
+ cursor: pointer;
+      
+}
+
+.personal:hover{
+  border-radius:40px;
+ padding:5px;
+ background-color:#32CD32;
+ width:60px;
+ height: 40px;
+ text-align:center;
+ cursor: pointer;
+ font-size: 15px;
+ text-align: center;
+}
+.group:hover{
+
+  border-radius:40px;
+  padding:3px;
+  background-color:#32CD32;
+  width:54px;
+  height: 40px;
+  text-align:center;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Emoji-space{
+  
+   font-size: 20px;
+   position: relative;
+   right: 32px;
+   top: 5px;
+
+}
+
+.Send-btn{
+  color: white;
+  font-size: 25px;
+  border-radius: 60px;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  margin-left: 100px;
+  color:green;
+  position: relative;
+  bottom: 3px;
+
+}
+
+.Message {
+   background-color:rgba(53, 253, 53, 0.481);
+  padding: 12px;
+  border-radius: 12px;
+  width:120%;
+  display: inline-block;
+  word-break: break-word;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-right: 20px;
+  gap: 6px;
+  margin-top: 15px;
+  overflow-x: hidden;
+}
+
+.Message strong {
+  font-weight: bold;
+  margin-right: 5px;
+  color:ghostwhite;
+  font-size:15px ;
+
+
+}
+
+.Message span {
+  color: #121111;
+  font-size: 13px;
+  font-weight: 350px;
+
+}
+
+.Main-chat{
+   
+     
+    margin-top:70px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 33%;
+    background-color: whitesmoke;
+
+}
+.Main-chat img{
+   
+     width: 200px;
+     height: 300px;
+     border-radius: 10px;
+     margin-bottom: 3px;
+
+}
+.Main-chat input {
+
+   border-radius: 50px;
+   border :0px solid none;
+
+
+}
+.gradient-text {
+  background-image: linear-gradient( #00188F, #EC008C,#E81123);
+  background-clip: text;
+  color: transparent;
+}
+
+.Main-chat button:hover{
+
+  background: linear-gradient( #00188F, #EC008C,#E81123);
+  color: white;
+   
+}
+.Main-chat button{
+   
+    color: white;
+    background-color: rgba(116, 16, 238, 0.893);
+}
+  
+.Main-bg{
+   
+    background-color: ghostwhite;
+    
+}
+
+.second-main-container{
+   background-color:white;
+   color: black;
+   padding: 28px;
+   height: 108vh;
+   margin-top: 58px;
+   margin-left: 15px;
+   border-radius: 40px;
+   scrollbar-width:none;
+   overflow-y: scroll;
+    width: 300%;
+    min-width: 300px;
+    max-height: 625px;
+    overflow-x: hidden;
+
+}
+
+.emoji-picker-custom{
+
+    background-color: white;
+    min-width:50px;
+    position: relative;
+    bottom: 600px;
+    left: 30px;
+
+}
+.emoji-toggle-btn{
+
+    position: relative;
+    font-size: 22px;
+    background-color: rgb(255, 181, 8);
+    border-radius: 30px;
+    top:6px;
+    right: 40px;
+}
+.emoji-pin{
+
+  position: relative;
+  font-size: 20px;
+  color: #121111;
+  right: 90px;
+  top:8px;
+
+
+}
+
+.message-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 30px;
+}
+
+.message-left {
+  justify-content: flex-start;
+  flex-direction: initial;
+}
+
+.message-right {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  position: relative;
+  right: 355%;
+ 
+
+}
